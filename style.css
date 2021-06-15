@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bgimage{
+	 background-image:url('pics01.jpg');
+	background-size: 100% 110%;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+.leftmenu{
+	width: 30%;
+	line-height: 100px;
+	float: left;
+	
+}
+.leftmenu h4{
+	padding-left: 70px; 
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+
+}
+.rightmenu{
+	width: 65%;
+	height: 100px;
+	float: right;
+	
+}
+.rightmenu a{
+	  font-family: 'Montserrat', sans-serif;
+	  display: inline-block;
+	 font-size: 20px; 
+	 color: white;
+	 font-weight: bold;
+	 line-height: 100px;
+	  margin-left: 150px;
+	  text-transform: uppercase;
+
+}
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+
+}
+.text h4{
+	font-size: 18px;
+	font-family: 'open sans', sans-serif;
+
+}
+.text h1{
+	font-size: 40px;
+	font-weight: 700px;
+	margin: 14px 0px ;
+	animation: text 3s 1;
+	position: relative;
+}
+@keyframes  text{
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+}
+#buttonone{
+	background-color: pink;
+	border: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white ;
+
+}
